@@ -8,7 +8,10 @@ This utility streamlines access to Nhentai content by opening Nhentai codes effo
 
 Follow these steps to install the extension locally in developer mode:
 
-1. Download the zip form the release it just contains the two files in the repo.
+```bash
+ git clone https://github.com/stepbro72/nhentainewtab.git
+```
+1. Clone the repo
 1. Open Chrome and go to `chrome://extensions/`.
 2. Enable "Developer mode" using the toggle switch in the top-right corner.
 3. Click on the "Load unpacked" button.
