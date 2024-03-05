@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "NHcode",
+    "description": "Gives an option in context menu (right click menu) so you can highlight and open a nhentai code in a new tab",
+    "version": "1.0",
+    "action": {},
+    "permissions": ["contextMenus", "cookies", "tabs", "activeTab"],
+    "background": {
+        "service_worker": "nut.js"
+    }
+  }
