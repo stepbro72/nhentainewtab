@@ -2,7 +2,7 @@
 
 ## Overview
 
-This utility streamlines access to Nhentai content by opening Nhentai codes effortlessly. It enhances user convenience by adding a context menu item that, when a Nhentai code is highlighted, opens it in a new tab. Notably, the newly opened tab remains unfocused to mitigate inconvenience when users wish to open multiple codes simultaneously.
+This utility streamlines access to adult content from various sites, including Nhentai, sextb, and missav, by opening codes effortlessly. It enhances user convenience by adding a context menu item that, when a code is highlighted, opens it in a new tab. Notably, the newly opened tab remains unfocused to mitigate inconvenience when users wish to open multiple codes simultaneously.
 
 ## Installation
 
@@ -14,3 +14,4 @@ Follow these steps to install the extension locally in developer mode:
 3. Click on the "Load unpacked" button.
 4. Select the directory where you cloned the extension.
 5. Your extension should now be installed and visible in the list of installed extensions.
+6. Select text and right click to see the newly added context menu item called `NHcode`

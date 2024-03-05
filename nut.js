@@ -15,6 +15,9 @@ function genericOnClick(info) {
     case 'missav':
       targetSite = "https://missav.com/en/search/";
       break;
+    case 'javlibrary':
+      targetSite = "http://www.javlibrary.com/en/vl_searchbyid.php?keyword=";
+      break;
   }
 
   //open the selection in a new tab
@@ -39,6 +42,13 @@ chrome.runtime.onInstalled.addListener(function () {
     title: 'Open %s in missav.com',
     type: 'normal',
     id: 'missav',
+    contexts: ['selection']
+  });
+
+  chrome.contextMenus.create({
+    title: 'Open %s in javlibrary.com',
+    type: 'normal',
+    id: 'javlibrary',
     contexts: ['selection']
   });
 
